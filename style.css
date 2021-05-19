@@ -1,0 +1,115 @@
+body{
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+}
+.list{
+	background-color: #556B2F;
+	width:230px;
+	height:800px;
+	margin: 0;
+	padding: 0;
+}
+.list #logo {
+	width:60px;
+	height:60px;
+	border-radius: 50%;
+	position: absolute;
+	top:100px;
+	left:70px;
+}
+.list h1 {
+	padding: 0;
+	margin: 0;
+	color:white;
+	position: absolute;
+	top:160px;
+	left:10px;
+	font-weight: bold;
+	
+}
+ul li img {
+	width:20px;
+	height:20px;
+	border-radius: 50%;
+	margin: 7px;
+	border:1px solid black;
+	padding:3px;
+}
+ul  {
+	position: absolute;
+	top:270px;
+    left:-26px;
+}
+ul li{
+	list-style: none;
+}
+ol li a {
+	color:white;
+	text-decoration: none;
+	margin:23px;
+	font-size: 20px;
+}
+ol{
+	position: absolute;
+	top:256px;
+	left:10px;
+}
+ol li{
+	list-style: none;
+	margin: 23px;
+}
+.list p{
+	position: absolute;
+	top:750px;
+	font-weight: bold;
+	left:20px;
+}
+svg{
+	position: absolute;
+	top:600px;
+	left:590px;
+	width:900px;
+}
+.main h1{
+	color:#556B2F;
+	font-size: 70px;
+	position: absolute;
+	top:140px;
+	left:300px;
+    font-family: 'Lobster', cursive;
+}
+.main blockquote{
+	color:red;
+	position: absolute;
+	top:260px;
+	left:320px;
+}
+.main p {
+	position: absolute;
+	top:400px;
+	left:320px;
+	width:300px;
+}
+.main button {
+	position: absolute;
+	top:630px;
+	left:400px;
+	width:130px;
+	font-weight: bold;
+	background-color:#556B2F;
+	border-radius:30px;
+    height: 50px;
+}
+.img #img {
+	position: absolute;
+	top:2px;
+	left:800px;
+	width:700px;
+	height:700px;
+}
+.img p{
+	position: absolute;
+	top:630px;
+	left:1100px;
+}
